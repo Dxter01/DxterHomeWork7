@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reset CSS</title>
+    <title>Float</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,14 +11,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/reset.css" />
   </head>
   <body>
-    <div class="div-element">This is div in resetcss</div>
-    <p class="presetcss">
-      Reset css resets all browser styles to zero, so you will have to configure
-      everything manually.
+    <h1>Demonstration float та clear</h1>
+    <img
+      class="left-float imgfloat"
+      src="https://i.scdn.co/image/ab6761610000e5eb0763f825fbed0af2f1943842"
+      alt="sadsvitimg"
+    />
+    <p class="pimage">
+      This is an example of an image that is wrapped around text using float.
+      You can replace the URL with any real photo.
     </p>
+    <div class="box left-float">Float left</div>
+    <p>
+      This is text that wraps around floated elements. You can see how the
+      paragraph "wraps" around the floated blocks to the left and right.
+    </p>
+    <div class="box right-float">Float right</div>
+    <div class="box divclear">clear: both — stands below all floats</div>
+    <p>And this text comes after the element that removed the wrapping.</p>
     <a href="../index.html">Block and inline elements</a>
     <a href="normalizecss.html">Normalize CSS</a>
     <a href="resetcss.html">Reset CSS</a>

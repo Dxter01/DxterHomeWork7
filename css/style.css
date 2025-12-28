@@ -73,3 +73,72 @@ body {
   width: 100px;
   box-sizing: border-box;
 }
+
+.imgfloat {
+  float: left;
+  width: 300px;
+  border: solid gray;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.box {
+  border: solid tomato;
+  border-radius: 12px;
+  background-color: orange;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.box:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.left-float {
+  border: solid tomato;
+  border-radius: 12px;
+  background-color: orange;
+  width: 200px;
+  float: left;
+  font-weight: 700;
+  text-align: center;
+}
+
+.right-float {
+  border: solid green;
+  background-color: blue;
+  color: white;
+  float: right;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+
+.divclear {
+  clear: both;
+  border: solid black;
+  background-color: gray;
+  width: 200px;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+a {
+  margin: 10px;
+}
