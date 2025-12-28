@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+}
+
+.div-element {
+  padding: 10px;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+}
+
+.span-element {
+  background-color: skyblue;
+}
