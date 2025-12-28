@@ -3,7 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Overflow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="divcontainer divhidden">
+      <p class="poverflow1">
+        If we want content that does not fit in the block to be invisible, we
+        can use overflow: hidden.
+      </p>
+      <p class="poverflow">No scrolling, just cropping.</p>
+    </div>
+
+    <div class="divcontainer divscroll">
+      <p>
+        This text extends beyond the container, but thanks to overflow: scroll ,
+        a scroll bar appears.
+      </p>
+      <p>More text to check scrolling...</p>
+      <p>A little more text...</p>
+      <p>Even more text...</p>
+      <p>And more text...</p>
+    </div>
+    <a href="../index.html">Block and inline elements</a>
+    <a href="normalizecss.html">Normalize CSS</a>
+    <a href="resetcss.html">Reset CSS</a>
+    <a href="display.html">Display block, inline, inline-block </a>
+    <a href="float.html">Float</a>
+    <a href="overflow.html">Overflow</a>
+  </body>
 </html>

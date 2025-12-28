@@ -7,6 +7,10 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+div {
+  margin: 10px;
+}
+
 .div-element {
   padding: 10px;
   background-color: aquamarine;
@@ -117,7 +121,7 @@ body {
   text-align: center;
 }
 
-p {
+.pfloat {
   max-width: 600px;
   margin-bottom: 25px;
 }
@@ -141,4 +145,42 @@ h1 {
 
 a {
   margin: 10px;
+}
+
+.divhidden {
+  overflow: hidden;
+  width: 200px;
+  height: 50px;
+  background-color: #93cdfa;
+  border: solid #0a8ff5;
+  color: #0a8ff5;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.poverflow1 {
+  margin: 0px;
+}
+
+.poverflow {
+  margin: 5px;
+}
+
+.divscroll {
+  width: 200px;
+  height: 100px;
+  border: solid #ad6f03;
+  background-color: #f5bc5b;
+  color: #ad6f03;
+  font-weight: 700;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.divcontainer {
+  transition: box-shadow 0.3s;
+}
+
+.divcontainer:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
