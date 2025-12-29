@@ -172,15 +172,96 @@ a {
   border: solid #ad6f03;
   background-color: #f5bc5b;
   color: #ad6f03;
-  font-weight: 700;
   border-radius: 10px;
   overflow: scroll;
 }
 
 .divcontainer {
   transition: box-shadow 0.3s;
+  font-weight: 700;
+  padding: 10px;
 }
 
 .divcontainer:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.divvisible {
+  width: 200px;
+  height: 100px;
+  border: solid #a6a244;
+  background-color: #dbd632;
+  color: #a6a244;
+  border-radius: 12px;
+  overflow: visible;
+}
+
+.divauto {
+  width: 200px;
+  height: 100px;
+  border: solid #f58c0c;
+  background-color: #9e6015;
+  overflow: auto;
+  color: #f58c0c;
+  border-radius: 12px;
+}
+
+.divstatic {
+  border: solid #788c46;
+  background-color: #c7e872;
+  color: #788c46;
+  position: static;
+  border-radius: 12px;
+  height: 200px;
+  font-size: 30px;
+}
+
+.divrelative {
+  border: solid #6f4999;
+  background-color: #b073f5;
+  color: #6f4999;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  border-radius: 12px;
+  height: 200px;
+  font-size: 30px;
+}
+
+.container-absolute {
+  border: solid #6009eb;
+  border-radius: 12px;
+  background-color: #965df0;
+  color: #6009eb;
+  position: relative;
+}
+
+.divabsolute {
+  border: solid #f01a1a;
+  border-radius: 12px;
+  background-color: #f08d8d;
+  color: #f01a1a;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 200px;
+}
+
+.divfixed {
+  border: solid #696e22;
+  border-radius: 12px;
+  background-color: #f3fa8c;
+  color: #696e22;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+}
+
+.divsticky {
+  border: solid #2c6f70;
+  border-radius: 12px;
+  background-color: #0ff6fa;
+  color: #2c6f70;
+  margin-bottom: 1000px;
 }

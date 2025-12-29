@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
+    <h1>The overflow property</h1>
     <div class="divcontainer divhidden">
       <p class="poverflow1">
         If we want content that does not fit in the block to be invisible, we
@@ -31,11 +32,25 @@
       <p>Even more text...</p>
       <p>And more text...</p>
     </div>
-    <a href="../index.html">Block and inline elements</a>
-    <a href="normalizecss.html">Normalize CSS</a>
-    <a href="resetcss.html">Reset CSS</a>
-    <a href="display.html">Display block, inline, inline-block </a>
-    <a href="float.html">Float</a>
-    <a href="overflow.html">Overflow</a>
+    <div class="divcontainer divvisible">
+      With overflow: visible the content extends beyond the container and is
+      visible. This can disrupt the design if not controlled.
+    </div>
+    <div class="divcontainer divauto">
+      In this example, a container with a fixed width and height contains a
+      paragraph of text that is too long to display without scrolling. The
+      overflow: auto; property causes scroll bars to appear in the container if
+      the entire content cannot be displayed at once, allowing the user to
+      scroll through it to view it.
+    </div>
+    <nav class="navigation">
+      <a href="../index.html">Block and inline elements</a>
+      <a href="normalizecss.html">Normalize CSS</a>
+      <a href="resetcss.html">Reset CSS</a>
+      <a href="display.html">Display block, inline, inline-block</a>
+      <a href="float.html">Float</a>
+      <a href="overflow.html">Overflow</a>
+      <a href="position.html">Position</a>
+    </nav>
   </body>
 </html>

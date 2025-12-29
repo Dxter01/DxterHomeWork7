@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="divcontainer divstatic">
+      <h2>Static (static positioning)</h2>
+      <p>
+        This is the default value that does not require explicit definition, as
+        elements are automatically positioned in the normal document flow.
+      </p>
+    </div>
+    <div class="divcontainer divrelative">
+      <h2>Relative (relative positioning)</h2>
+      <p>
+        The element is shifted relative to its original position in the normal
+        flow of the document without affecting the placement of other elements.
+      </p>
+    </div>
+    <div class="divcontainer container-absolute">
+      <h2>Absolute (absolute positioning)</h2>
+      <p>
+        The element is removed from the normal document flow and positioned
+        relative to its nearest positioned ancestor (not static).
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sed?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
+        quisquam!
+      </p>
+      <div class="divcontainer divabsolute">
+        I'm absolute! Positioning myself in the corner of the container with
+        relative.
+      </div>
+    </div>
+    <div class="divcontainer divfixed">
+      <h2>Fixed (fixed positioning)</h2>
+      <p>
+        The element is fixed in one place in the browser window and does not
+        move when scrolling the page.
+      </p>
+    </div>
+    <div class="divcontainer divsticky">
+      <h2>Sticky (sticky positioning)</h2>
+      <p>
+        The element is relatively positioned until it reaches a certain
+        threshold in the form of page scrolling, after which it behaves as
+        fixed.
+      </p>
+    </div>
+    <nav class="navigation">
+      <a href="../index.html">Block and inline elements</a>
+      <a href="normalizecss.html">Normalize CSS</a>
+      <a href="resetcss.html">Reset CSS</a>
+      <a href="display.html">Display block, inline, inline-block</a>
+      <a href="float.html">Float</a>
+      <a href="overflow.html">Overflow</a>
+      <a href="position.html">Position</a>
+    </nav>
+  </body>
+</html>
